@@ -11,10 +11,14 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body>
+<!-- -------------------NAVIGATION BAR-------------------- -->
+
     <div class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <div class="navbar-brand">Harsh</div>
@@ -39,7 +43,7 @@
               <a class="nav-link mx-4" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-4" href="resume">Resume</a>
+              <a class="nav-link mx-4" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-4" href="#project">Project</a>
@@ -52,7 +56,7 @@
       </div>
     </div>
 
-    <!-- Body  -->
+<!-- -------------------HOME PAGE-------------------- -->
 
     <section id="home">
         <div class="container">
@@ -76,13 +80,12 @@
     </div>
 </section>
 
-
+<!-- -------------------ABOUT SECTION-------------------- --> 
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-2"></div>
                 <div class="col-sm">
-                    <img src="/media/mine.jpeg"  class="image-wrapper img-fluid rounded-circle profile-img w-50 h-auto " alt="">
+                    <img src="/media/mine1.jpeg" class="image-wrapper">
                 </div>
                 <div class="col-sm">
                     <div class="row">
@@ -94,34 +97,135 @@
                     </div>
                     <div class="row">
                         <h1 style="color: aqua;"> skills</h1>
-                        <div class="skill-cart">
-                            <div class="skills">HTML</div>
-                            <div class="skills">CSS</div>
-                            <div class="skills">JAVA SCRIPT</div>
-                            <div class="skills">NODE.JS</div>
-                            <div class="skills">EXPRESS.JS</div>
-                            <div class="skills">JAVA </div>
-                            <div class="skills">MONGODB </div>
-                            <div class="skills">GIT / GITHUB </div>
-                        </div>
+                        <ul class="skill-cart">
+                            <li class="skills">HTML</li>
+                            <li class="skills">CSS</li>
+                            <li class="skills">JAVA SCRIPT</li>
+                            <li class="skills">NODE.JS</li>
+                            <li class="skills">EXPRESS.JS</li>
+                            <li class="skills">JAVA </li>
+                            <li class="skills">MONGODB </li>
+                            <li class="skills">GIT / GITHUB </li>
+                        </ul>
                     </div>
+                  
                 </div>
             </div>
         </div>
     </section>
 
+
+    <!-- ------------------- Resume Section-------------------- -->
     <section id="resume">
-        
+        <h1 >MY RESUME</h1>
+        <div class="res">
+          <div class="left">
+            <h3 class="text-white">Technical Experience</h3>
+            <div>
+              <h4>Frontend Developer</h4>
+                  <div class="content">
+                    Personal Projects 2024 - Present <br>
+                    Building responsive and interactive web applications using HTML, CSS, JavaScript, React, Node.js, and MongoDB. Focused on creating clean UI designs and improving user experience.
+                  </div>
+              <h4>MERN Stack Developer</h4>
+                  <div class="content">
+                    Self Learning & Practice 2023 - Present <br>
+                    Developed full-stack applications including Todo App, URL Shortener, and Authentication systems using JWT. Worked with REST APIs, MongoDB integration, and backend development.
+                  </div>
+              <h4>AI & Web Development Enthusiast</h4>
+                  <div class="content">
+                    Academic & Personal Wor 2024 - Present <br>
+                  Worked on projects like AI Powered Phishing URL Detection System using Machine Learning. Interested in system design, modern web technologies, and problem solving using Java and DSA.
+                  </div>
+              </div>
+              <button>Download Resume</button>
+          </div>
+
+          <div class="right">
+            <h3 class="text-white">Education</h3>
+            <h4>Bachelor of Technology in Computer Science</h4>
+                  <div class="content">
+                    Ajay Kumar Garg Engineering College  2022 - 2026<br>
+                    Focused on Data Structures & Algorithms, Web Development, DBMS, Operating Systems, and Software Engineering. Built multiple full-stack and AI-based projects using modern technologie                  </div>
+              <h4>Higher Secondary Education (Class XII)</h4>
+                  <div class="content">
+                    Sacred Heart Convent School  2020 - 2021 <br>
+                    Completed senior secondary education with focus on Physics, Chemistry, and Mathematics. Developed strong analytical and problem-solving skills.                  </div>
+              <h4>Secondary Education (Class X)</h4>
+                  <div class="content">
+                    Sacred Heart Convent School  2018 - 2019br>
+                    Built a strong academic foundation with active participation in academics and technical learning activities.                  </div>
+          </div>
+        </div>
     </section>
-    1
+    
+    <!-- ------------------- Project-------------------- -->
     <section id="project">
-
+        <h1>Projects</h1>
+        <div class="img-sec">
+          <a href=""><img src="media/Snapshot1.png" alt=""></a>
+          <a href=""><img src="media/Snapshot1.png" alt=""></a>
+          <a href=""><img src="media/Snapshot1.png" alt=""></a>
+          <a href=""><img src="media/Snapshot1.png" alt=""></a>
+        </div>
     </section>
 
+    <!-- ------------------- Contact-------------------- -->
     <section id="contact">
-        
+        <h1>Contact</h1>
+        <div class="contact">
+            <div class="cont-details">
+              <ul>
+                <li> <i class="fa-solid fa-envelope"></i> hv04090@gmail.com</li>
+                <li> <i class="fa-solid fa-phone"></i> +91 9719121465</li>
+                <li> <i class="fa-solid fa-location-dot"></i> Budaun, UP</li>
+                <li>
+                  <a href="https://linkedin.com/in/yourusername" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://t.me/yourusername" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                  <a href="https://github.com/yourusername" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://instagram.com/yourusername" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="cont-details">
+              <input type="text" name="" id="" placeholder="Name"><br>
+              <input type="text" placeholder="Enter the Email"><br>
+              <textarea type="text" placeholder="Type Your Message here..." class="message"></textarea> <br>
+              <button>Send Message</button>
+            </div>
+        </div>
     </section>
 
+    <section id="footer">
+       <footer class="footer">
+
+    <h2>Harsh Vardhan</h2>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <p>© 2026 Harsh Vardhan | Built with HTML CSS JS</p>
+
+</footer>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

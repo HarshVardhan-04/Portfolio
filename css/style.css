@@ -1,9 +1,19 @@
 body {
     background-color: rgb(48, 46, 46);
-
+    padding-top: 80px;
 }
+
+/* <!-- -------------------NAVIGATION BAR-------------------- --> */
 .navbar {
-  
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 40px;
+
+    background: rgba(17,17,17,0.7);
+    backdrop-filter: blur(10px);
+
+    z-index: 1000;
   background-color: rgb(80, 75, 75);
 }
 
@@ -23,6 +33,7 @@ body {
     margin-top: 100px;
     color: aqua;
 }
+/* <!-- -------------------HOME PAGE-------------------- --> */
 
 .image-wrapper {
   border-radius: 50%;
@@ -35,14 +46,27 @@ body {
     margin-bottom: 100px;
 }
 
+/* <!-- -------------------ABOUT SECTION-------------------- --> */
+.col-sm img{
+    width: 300px;
+    height: auto;
+    border-radius: 35px;
+    margin-left:100px ;
+}
+
+/* about */
 .skill-cart {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
 }
 .skills {
-    margin: 10px;
-    padding: 5px;
-    background-color: blueviolet;
-    border-radius: 15px;
+    list-style: none;
+    background: cyan;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: black;
     transition: transform 0.3s ease;
 
 }
@@ -51,4 +75,143 @@ body {
     background-color: brown;
     transform: scale(1.25);
 
+}
+
+/* <!-- -------------------Resume ------------------- --> */
+
+#resume h1{
+    color: aqua;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.res {
+    width: 80%;
+    padding: 50px 0px ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: rgb(206, 164, 245);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: rgb(11, 97, 97);
+    color: aqua;
+    transform: scale(1.05);
+}
+.left{
+     width: 45%;
+}
+
+.right{
+     width: 45%;
+}
+
+ h4{
+    color: aliceblue;
+}
+
+.content{
+    color: rgb(45, 242, 242);
+}
+
+/* <!-- -------------------Projects------------------- --> */
+
+#project h1{
+    color: aqua;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img-sec{
+
+    display: flex;
+    gap: 90px;          /* space between images */
+    padding-left: 150px; /* space at starting */
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+#project img{
+    width: 300px;
+    transition: 0.3s;
+}
+
+#project img:hover{
+    transform: scale(1.25);
+}
+
+/* <!-- -------------------Contact------------------- --> */
+#contact h1{
+    color: aqua;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact{
+    
+    display: flex;
+    gap: 200px;          /* space between images */
+    padding-left: 350px; /* space at starting */
+    margin: 50px 0px 130px 0px;
+    flex-wrap: wrap;
+}
+.cont-details ul li{
+    padding: 20px 0px;
+}
+
+.cont-details ul{
+    list-style: none;
+    color: aliceblue;
+}
+
+input{
+    height: 30px;
+    width: 500px;
+    margin: 15px 0px;
+}
+
+.message{
+    width: 500px;
+    height: 200px;
+}
+
+/* <!-- -------------------footer------------------- --> */
+.footer{
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.footer h2{
+    margin-bottom: 15px;
+}
+
+.footer-links{
+    margin-bottom: 20px;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: #00adb5;
+}
+
+.footer p{
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
 }
