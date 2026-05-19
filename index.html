@@ -16,6 +16,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link rel="stylesheet" href="/css/style.css" />
+    4
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   </head>
 
   <body>
@@ -67,7 +70,7 @@
           <div class="col-sm">
             <div class="about">
               <div class="heading">I'm a Full Stack Developer</div>
-              <h3 style="color: rgb(228, 173, 173);">Harsh Vardhan</h3>
+              <h3 style="color: rgb(228, 173, 173)">Harsh Vardhan</h3>
               I am a passionate Full Stack Developer and Computer Science
               Engineering student. I love building modern, responsive, and
               user-friendly web applications using MERN Stack technologies. I
@@ -99,19 +102,18 @@
             <div class="row">
               <h3>About Me</h3>
               <div class="description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
-                beatae labore modi, adipisci possimus quam ipsum facilis placeat
-                voluptas odit asperiores, reiciendis excepturi tempore
-                recusandae! Cupiditate laborum repellendus ipsum tempora? Totam
-                voluptates voluptatibus, iure harum perferendis quos ratione
-                tempore vero. Quia, inventore necessitatibus molestias
-                perferendis natus, enim corporis doloremque incidunt maiores
-                distinctio aut architecto blanditiis, porro veritatis. Impedit,
-                numquam a!
+                I’m Harsh Vardhan, a Computer Science student and passionate
+                Full Stack Developer who enjoys building modern, responsive, and
+                user-friendly web applications. I love solving problems through
+                code and continuously exploring new technologies to improve my
+                skills. With experience in MERN stack development, Java, APIs,
+                and database management, I focus on creating projects that are
+                both functional and impactful.
               </div>
             </div>
+            <br><br>
             <div class="row">
-              <h1 style="color: aqua">skills</h1>
+              <h2 style="color: aqua">Skills</h2>
               <ul class="skill-cart">
                 <li class="skills">HTML</li>
                 <li class="skills">CSS</li>
@@ -157,7 +159,9 @@
               technologies, and problem solving using Java and DSA.
             </div>
           </div>
-          <a href="media/HarshVardhanResume (1).pdf" download><button>Download Resume</button></a>
+          <a href="media/HarshVardhanResume (1).pdf" download
+            ><button>Download Resume</button></a
+          >
         </div>
 
         <div class="right">
@@ -222,17 +226,29 @@
             </li>
           </ul>
         </div>
-        <div class="cont-details">
-          <input type="text" name="" id="" placeholder="Name" /><br />
-          <input type="text" placeholder="Enter the Email" /><br />
+        <form class="cont-details" id="cont-details">
+          <input
+            type="text"
+            name="from_name"
+            id=""
+            placeholder="Name"
+            required
+          /><br />
+          <input
+            type="text"
+            name="from_email"
+            placeholder="Enter the Email"
+            required
+          /><br />
           <textarea
+            name="message"
             type="text"
             placeholder="Type Your Message here..."
             class="message"
           ></textarea>
           <br />
-          <button>Send Message</button>
-        </div>
+          <button type="submit">Send Message</button>
+        </form>
       </div>
     </section>
 
@@ -262,5 +278,7 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
