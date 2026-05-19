@@ -235,10 +235,19 @@ button:hover{
 /* ------------------- PROJECTS ------------------- */
 .img-sec{
     display: flex;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
-    margin-top: 80px;
     flex-wrap: wrap;
+}
+
+.img-sec div{
+    text-align: center;
+}
+
+.img-sec h4{
+    margin-top: 12px;
+    font-size: 22px;
+    color: white;
 }
 
 #project img{
